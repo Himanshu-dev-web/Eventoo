@@ -15,11 +15,6 @@ const EventDetails = async ({ params: { id }, searchParams }: SearchParamProps) 
       eventId: event._id,
       page: searchParams.page as string,
     })
-  
-    
-    
-    
-    
     
     
     return (
@@ -55,7 +50,7 @@ const EventDetails = async ({ params: { id }, searchParams }: SearchParamProps) 
             </div>
           </div>
 
-          {/* <CheckoutButton event={event} /> */}
+          <CheckoutButton event={event} />
 
           <div className="flex flex-col gap-5">
             <div className='flex gap-2 md:gap-3'>
