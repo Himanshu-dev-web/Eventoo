@@ -37,11 +37,11 @@ export default async function Home({ searchParams }: SearchParamProps) {
             </Button>
           </div>
           <Image 
-            src="/assets/images/hero.png"
+            src="/assets/images/main.svg"
             alt="hero"
             width={1000}
             height={1000}
-            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]"
+            className="max-h-[70vh] rounded-[100%] object-contain object-center 2xl:max-h-[50vh]"
           />
         </div>
       </section> 
